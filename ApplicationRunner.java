@@ -15,8 +15,13 @@ public class ApplicationRunner extends JFrame implements Runnable {
 	
 	@Override
 	public void run() {
-		JFrame j = new JFrame("Birds Online");
+		
+		// Edit the argument string to set the frame title, seen in the top left.
+		JFrame j = new JFrame("Insert Title Here");
+		
+		// Edit these arguments to set a size for the application window.
 		j.setSize(1200,1000);
+		
 		j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		RawRunner e = new RawRunner();
